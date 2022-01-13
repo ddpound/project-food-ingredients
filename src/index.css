@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+메인색 : #93C8B4 
+배경색 : #F9F9F9
+글자색 : 보통글자색 #6D6165 아니면 black, 93C8B4,
+*/
+
+html, body{
+  background-color: #F9F9F9;
+  margin: 0 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+  background-color: #93C8B4 ;
+}
+
+header div{
+  display: flex;
+  text-align: center;
+  width: 600px;
+  height: auto;
+  margin: auto;
+}
+
+
+header div a{
+ text-decoration: none; 
+}
+
+header div a:visited{
+  color: black
+}
+
+
+header p{
+  font-weight: bold;
+  color: #6D6165;
+}
+
+header .mainLogo{
+  margin: 0 120px 0 0;
+}
+
+header .searchSection{
+  margin: 0 120px 0 0
+}
+
+.testtest{
+  color: #93C8B4;
+}
+
+
+footer{
+  font-family: 'Jua', sans-serif;
+  border: black solid;
+  display: flex;
+  background-color: #93C8B4;
+}
+
+footer section{
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
 }
